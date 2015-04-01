@@ -1,0 +1,18 @@
+{
+  "name": "bluebird-promisify-phantomjs-bug",
+  "version": "0.0.1",
+  "description": "A minimal testcase showing an incompatability between phantomjs, via mocha-phantomjs and the promisify method provided by bluebird",
+  "scripts": {
+    "test": "`npm bin`/mocha-phantomjs index.html"
+  },
+  "author": "Noah Adams",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.21",
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1",
+    "mocha-phantomjs": "^3.5.3",
+    "phantomjs": "^1.9.16",
+    "requirejs": "^2.1.17"
+  }
+}
